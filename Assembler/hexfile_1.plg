@@ -1,0 +1,659 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Schueler\Desktop\Mikrokontroller_mc\Projekt_C.uvproj
+Project File Date:  02/25/2015
+
+<h2>Output:</h2>
+"C:\Program Files (x86)\Atmel\FLIP 2.4.6\bin\batchIsp.exe" -device T89C51CC01 -hardware RS232 -port COM5 -baudrate 9600 -operation MEMORY FLASH LOADBUFFER hexfile.HEX PROGRAM start reset  0
+Build target 'Target 1'
+compiling fvs_bib_lcd.c...
+compiling c_code.c...
+c_code.c(7): error C141: syntax error near 'unsigned'
+c_code.c(7): error C202: 'ascii': undefined identifier
+c_code.c(8): error C202: 'ADDCLK': undefined identifier
+c_code.c(9): error C202: 'ADDCON': undefined identifier
+c_code.c(10): error C141: syntax error near 'int'
+c_code.c(10): error C202: 'z': undefined identifier
+c_code.c(15): error C202: 'ADDCON': undefined identifier
+c_code.c(15): error C141: syntax error near ';'
+c_code.c(15): error C141: syntax error near ')'
+c_code.c(17): error C202: 'ascii': undefined identifier
+c_code.c(19): error C202: 'ascii': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling c_code.c...
+c_code.c(7): error C141: syntax error near 'unsigned'
+c_code.c(7): error C202: 'ascii': undefined identifier
+c_code.c(8): error C202: 'ADDCLK': undefined identifier
+c_code.c(9): error C202: 'ADDCON': undefined identifier
+c_code.c(10): error C141: syntax error near 'int'
+c_code.c(10): error C202: 'z': undefined identifier
+c_code.c(15): error C202: 'ADDCON': undefined identifier
+c_code.c(15): error C141: syntax error near ';'
+c_code.c(15): error C141: syntax error near ')'
+c_code.c(17): error C202: 'ascii': undefined identifier
+c_code.c(19): error C202: 'ascii': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling c_code.c...
+c_code.c(7): error C141: syntax error near 'unsigned'
+c_code.c(7): error C202: 'as': undefined identifier
+c_code.c(8): error C202: 'ADDCLK': undefined identifier
+c_code.c(9): error C202: 'ADDCON': undefined identifier
+c_code.c(10): error C141: syntax error near 'int'
+c_code.c(10): error C202: 'z': undefined identifier
+c_code.c(15): error C202: 'ADDCON': undefined identifier
+c_code.c(15): error C141: syntax error near ';'
+c_code.c(15): error C141: syntax error near ')'
+c_code.c(17): error C202: 'as': undefined identifier
+c_code.c(19): error C202: 'as': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling c_code.c...
+c_code.c(7): error C141: syntax error near 'unsigned'
+c_code.c(7): error C202: 'as': undefined identifier
+c_code.c(8): error C202: 'ADDCLK': undefined identifier
+c_code.c(9): error C202: 'ADDCON': undefined identifier
+c_code.c(13): error C202: 'ADDCON': undefined identifier
+c_code.c(13): error C141: syntax error near ';'
+c_code.c(13): error C141: syntax error near ')'
+c_code.c(15): error C202: 'as': undefined identifier
+c_code.c(17): error C202: 'as': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling c_code.c...
+c_code.c(7): error C202: 'ADDCLK': undefined identifier
+c_code.c(8): error C202: 'ADDCON': undefined identifier
+c_code.c(9): error C141: syntax error near 'unsigned'
+c_code.c(9): error C202: 'as': undefined identifier
+c_code.c(13): error C202: 'ADDCON': undefined identifier
+c_code.c(13): error C141: syntax error near ';'
+c_code.c(13): error C141: syntax error near ')'
+c_code.c(15): error C202: 'as': undefined identifier
+c_code.c(17): error C202: 'as': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling c_code.c...
+c_code.c(7): error C202: 'ADDCLK': undefined identifier
+c_code.c(8): error C202: 'ADDCON': undefined identifier
+c_code.c(14): error C202: 'ADDCON': undefined identifier
+c_code.c(14): error C141: syntax error near ';'
+c_code.c(14): error C141: syntax error near ')'
+Target not created
+Build target 'Target 1'
+compiling c_code.c...
+c_code.c(7): error C202: 'ADDCLK': undefined identifier
+c_code.c(8): error C202: 'ADDCON': undefined identifier
+c_code.c(14): error C202: 'ADDCON': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling c_code.c...
+c_code.c(14): error C202: 'ADDCON': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling c_code.c...
+c_code.c(18): warning C206: 'Zeichen': missing function-prototype
+c_code.c(18): error C267: 'Zeichen': requires ANSI-style prototype
+Target not created
+Build target 'Target 1'
+compiling c_code.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCDSEND?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CURRSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CURLSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_OFF?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_ON2?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_ON3?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_POS?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?HOME?FVS_BIB_LCD
+Program Size: data=16.0 xdata=0 code=471
+creating hex file from "hexfile"...
+"hexfile" - 0 Error(s), 10 Warning(s).
+"C:\Program Files (x86)\Atmel\FLIP 2.4.6\bin\batchIsp.exe" -device T89C51CC01 -hardware RS232 -port COM5 -baudrate 9600 -operation MEMORY FLASH LOADBUFFER hexfile.HEX PROGRAM start reset  0
+Build target 'Target 1'
+compiling c_code.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCDSEND?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CURRSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CURLSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_OFF?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_ON2?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_ON3?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_POS?FVS_BIB_LCD
+Program Size: data=16.0 xdata=0 code=478
+creating hex file from "hexfile"...
+"hexfile" - 0 Error(s), 9 Warning(s).
+"C:\Program Files (x86)\Atmel\FLIP 2.4.6\bin\batchIsp.exe" -device T89C51CC01 -hardware RS232 -port COM5 -baudrate 9600 -operation MEMORY FLASH LOADBUFFER hexfile.HEX PROGRAM start reset  0
+Build target 'Target 1'
+compiling c_code.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCDSEND?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CURRSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CURLSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_OFF?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_ON2?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_ON3?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_POS?FVS_BIB_LCD
+Program Size: data=16.0 xdata=0 code=478
+creating hex file from "hexfile"...
+"hexfile" - 0 Error(s), 9 Warning(s).
+"C:\Program Files (x86)\Atmel\FLIP 2.4.6\bin\batchIsp.exe" -device T89C51CC01 -hardware RS232 -port COM5 -baudrate 9600 -operation MEMORY FLASH LOADBUFFER hexfile.HEX PROGRAM start reset  0
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCDSEND?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CURRSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CURLSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_OFF?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_ON2?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_ON3?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_POS?FVS_BIB_LCD
+Program Size: data=16.0 xdata=0 code=478
+creating hex file from "hexfile"...
+"hexfile" - 0 Error(s), 9 Warning(s).
+"C:\Program Files (x86)\Atmel\FLIP 2.4.6\bin\batchIsp.exe" -device T89C51CC01 -hardware RS232 -port COM5 -baudrate 9600 -operation MEMORY FLASH LOADBUFFER hexfile.HEX PROGRAM start reset  0
+Build target 'Target 1'
+compiling c_code.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCDSEND?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CURRSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CURLSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_OFF?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_ON2?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_ON3?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_POS?FVS_BIB_LCD
+Program Size: data=16.0 xdata=0 code=478
+creating hex file from "hexfile"...
+"hexfile" - 0 Error(s), 9 Warning(s).
+"C:\Program Files (x86)\Atmel\FLIP 2.4.6\bin\batchIsp.exe" -device T89C51CC01 -hardware RS232 -port COM5 -baudrate 9600 -operation MEMORY FLASH LOADBUFFER hexfile.HEX PROGRAM start reset  0
+"C:\Program Files (x86)\Atmel\FLIP 2.4.6\bin\batchIsp.exe" -device T89C51CC01 -hardware RS232 -port COM5 -baudrate 9600 -operation MEMORY FLASH LOADBUFFER hexfile.HEX PROGRAM start reset  0
+Build target 'Target 1'
+compiling c_code.c...
+c_code.c(10): error C141: syntax error near 'unsigned'
+c_code.c(10): error C202: 'as': undefined identifier
+c_code.c(18): error C202: 'as': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling c_code.c...
+c_code.c(10): error C141: syntax error near 'unsigned'
+c_code.c(10): error C202: 'as': undefined identifier
+c_code.c(19): error C202: 'as': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling c_code.c...
+c_code.c(10): error C141: syntax error near 'char'
+c_code.c(10): error C202: 'as': undefined identifier
+c_code.c(19): error C202: 'as': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling c_code.c...
+c_code.c(10): error C141: syntax error near 'unsigned'
+c_code.c(10): error C202: 'wert': undefined identifier
+c_code.c(19): error C202: 'wert': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling c_code.c...
+c_code.c(10): error C141: syntax error near 'unsigned'
+c_code.c(10): error C202: 'wert': undefined identifier
+c_code.c(11): error C141: syntax error near 'int'
+c_code.c(11): error C202: 'z': undefined identifier
+c_code.c(20): error C202: 'wert': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling c_code.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCDSEND?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CURRSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CURLSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_OFF?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_ON2?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_ON3?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_POS?FVS_BIB_LCD
+Program Size: data=18.0 xdata=0 code=477
+creating hex file from "hexfile"...
+"hexfile" - 0 Error(s), 9 Warning(s).
+"C:\Program Files (x86)\Atmel\FLIP 2.4.6\bin\batchIsp.exe" -device T89C51CC01 -hardware RS232 -port COM5 -baudrate 9600 -operation MEMORY FLASH LOADBUFFER hexfile.HEX PROGRAM start reset  0
+Build target 'Target 1'
+compiling c_code.c...
+c_code.c(22): error C202: 'as': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling c_code.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCDSEND?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CURRSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CURLSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_OFF?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_ON2?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_ON3?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_POS?FVS_BIB_LCD
+Program Size: data=18.0 xdata=0 code=482
+creating hex file from "hexfile"...
+"hexfile" - 0 Error(s), 9 Warning(s).
+"C:\Program Files (x86)\Atmel\FLIP 2.4.6\bin\batchIsp.exe" -device T89C51CC01 -hardware RS232 -port COM5 -baudrate 9600 -operation MEMORY FLASH LOADBUFFER hexfile.HEX PROGRAM start reset  0
+Build target 'Target 1'
+compiling c_code.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCDSEND?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CURRSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CURLSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_OFF?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_ON2?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_ON3?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_POS?FVS_BIB_LCD
+Program Size: data=18.0 xdata=0 code=481
+creating hex file from "hexfile"...
+"hexfile" - 0 Error(s), 9 Warning(s).
+"C:\Program Files (x86)\Atmel\FLIP 2.4.6\bin\batchIsp.exe" -device T89C51CC01 -hardware RS232 -port COM5 -baudrate 9600 -operation MEMORY FLASH LOADBUFFER hexfile.HEX PROGRAM start reset  0
+Build target 'Target 1'
+compiling c_code.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCDSEND?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CURRSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CURLSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_OFF?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_ON2?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_ON3?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_POS?FVS_BIB_LCD
+Program Size: data=18.0 xdata=0 code=485
+creating hex file from "hexfile"...
+"hexfile" - 0 Error(s), 9 Warning(s).
+"C:\Program Files (x86)\Atmel\FLIP 2.4.6\bin\batchIsp.exe" -device T89C51CC01 -hardware RS232 -port COM5 -baudrate 9600 -operation MEMORY FLASH LOADBUFFER hexfile.HEX PROGRAM start reset  0
+Build target 'Target 1'
+compiling c_code.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCDSEND?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CURRSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CURLSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_OFF?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_ON2?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_ON3?FVS_BIB_LCD
+Program Size: data=17.0 xdata=0 code=505
+creating hex file from "hexfile"...
+"hexfile" - 0 Error(s), 8 Warning(s).
+"C:\Program Files (x86)\Atmel\FLIP 2.4.6\bin\batchIsp.exe" -device T89C51CC01 -hardware RS232 -port COM5 -baudrate 9600 -operation MEMORY FLASH LOADBUFFER hexfile.HEX PROGRAM start reset  0
+Build target 'Target 1'
+compiling c_code.c...
+c_code.c(26): error C183: unmodifiable lvalue
+c_code.c(26): error C141: syntax error near 'if'
+c_code.c(28): error C183: unmodifiable lvalue
+Target not created
+Build target 'Target 1'
+compiling c_code.c...
+c_code.c(25): error C183: unmodifiable lvalue
+c_code.c(28): error C183: unmodifiable lvalue
+Target not created
+Build target 'Target 1'
+compiling c_code.c...
+c_code.c(28): error C183: unmodifiable lvalue
+Target not created
+Build target 'Target 1'
+compiling c_code.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCDSEND?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CURRSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CURLSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_OFF?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_ON2?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_ON3?FVS_BIB_LCD
+Program Size: data=17.0 xdata=0 code=500
+creating hex file from "hexfile"...
+"hexfile" - 0 Error(s), 8 Warning(s).
+"C:\Program Files (x86)\Atmel\FLIP 2.4.6\bin\batchIsp.exe" -device T89C51CC01 -hardware RS232 -port COM5 -baudrate 9600 -operation MEMORY FLASH LOADBUFFER hexfile.HEX PROGRAM start reset  0
+Build target 'Target 1'
+compiling c_code.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCDSEND?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CURRSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CURLSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_OFF?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_ON2?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_ON3?FVS_BIB_LCD
+Program Size: data=17.0 xdata=0 code=505
+creating hex file from "hexfile"...
+"hexfile" - 0 Error(s), 8 Warning(s).
+"C:\Program Files (x86)\Atmel\FLIP 2.4.6\bin\batchIsp.exe" -device T89C51CC01 -hardware RS232 -port COM5 -baudrate 9600 -operation MEMORY FLASH LOADBUFFER hexfile.HEX PROGRAM start reset  0
+Build target 'Target 1'
+compiling c_code.c...
+c_code.c(30): warning C206: 'sek': missing function-prototype
+c_code.c(30): error C267: 'sek': requires ANSI-style prototype
+Target not created
+Build target 'Target 1'
+compiling c_code.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCDSEND?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CURRSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CURLSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_OFF?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_ON2?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_ON3?FVS_BIB_LCD
+Program Size: data=17.0 xdata=0 code=510
+creating hex file from "hexfile"...
+"hexfile" - 0 Error(s), 8 Warning(s).
+"C:\Program Files (x86)\Atmel\FLIP 2.4.6\bin\batchIsp.exe" -device T89C51CC01 -hardware RS232 -port COM5 -baudrate 9600 -operation MEMORY FLASH LOADBUFFER hexfile.HEX PROGRAM start reset  0
+Build target 'Target 1'
+compiling c_code.c...
+c_code.c(48): error C141: syntax error near '}'
+Target not created
+Build target 'Target 1'
+compiling c_code.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCDSEND?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CURRSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CURLSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_OFF?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_ON2?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_ON3?FVS_BIB_LCD
+Program Size: data=17.0 xdata=0 code=553
+creating hex file from "hexfile"...
+"hexfile" - 0 Error(s), 8 Warning(s).
+Build target 'Target 1'
+compiling c_code.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCDSEND?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CURRSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CURLSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_OFF?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_ON2?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_ON3?FVS_BIB_LCD
+Program Size: data=17.0 xdata=0 code=553
+creating hex file from "hexfile"...
+"hexfile" - 0 Error(s), 8 Warning(s).
+"C:\Program Files (x86)\Atmel\FLIP 2.4.6\bin\batchIsp.exe" -device T89C51CC01 -hardware RS232 -port COM5 -baudrate 9600 -operation MEMORY FLASH LOADBUFFER hexfile.HEX PROGRAM start reset  0
+Build target 'Target 1'
+compiling c_code.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCDSEND?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CURRSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CURLSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_OFF?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_ON2?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_ON3?FVS_BIB_LCD
+Program Size: data=17.0 xdata=0 code=554
+creating hex file from "hexfile"...
+"hexfile" - 0 Error(s), 8 Warning(s).
+"C:\Program Files (x86)\Atmel\FLIP 2.4.6\bin\batchIsp.exe" -device T89C51CC01 -hardware RS232 -port COM5 -baudrate 9600 -operation MEMORY FLASH LOADBUFFER hexfile.HEX PROGRAM start reset  0
+Build target 'Target 1'
+compiling c_code.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCDSEND?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CURRSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CURLSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_OFF?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_ON2?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_ON3?FVS_BIB_LCD
+Program Size: data=17.0 xdata=0 code=553
+creating hex file from "hexfile"...
+"hexfile" - 0 Error(s), 8 Warning(s).
+Build target 'Target 1'
+compiling c_code.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCDSEND?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CURRSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CURLSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_OFF?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_ON2?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_ON3?FVS_BIB_LCD
+Program Size: data=17.0 xdata=0 code=553
+creating hex file from "hexfile"...
+"hexfile" - 0 Error(s), 8 Warning(s).
+"C:\Program Files (x86)\Atmel\FLIP 2.4.6\bin\batchIsp.exe" -device T89C51CC01 -hardware RS232 -port COM5 -baudrate 9600 -operation MEMORY FLASH LOADBUFFER hexfile.HEX PROGRAM start reset  0
+Build target 'Target 1'
+compiling c_code.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCDSEND?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CURRSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CURLSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_OFF?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_ON2?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_ON3?FVS_BIB_LCD
+Program Size: data=17.0 xdata=0 code=553
+creating hex file from "hexfile"...
+"hexfile" - 0 Error(s), 8 Warning(s).
+"C:\Program Files (x86)\Atmel\FLIP 2.4.6\bin\batchIsp.exe" -device T89C51CC01 -hardware RS232 -port COM5 -baudrate 9600 -operation MEMORY FLASH LOADBUFFER hexfile.HEX PROGRAM start reset  0
+Build target 'Target 1'
+compiling c_code.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCDSEND?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CURRSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CURLSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_OFF?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_ON2?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_ON3?FVS_BIB_LCD
+Program Size: data=17.0 xdata=0 code=553
+creating hex file from "hexfile"...
+"hexfile" - 0 Error(s), 8 Warning(s).
+Build target 'Target 1'
+compiling c_code.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCDSEND?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CURRSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CURLSHIFT?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_OFF?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_ON2?FVS_BIB_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DIS_ON3?FVS_BIB_LCD
+Program Size: data=17.0 xdata=0 code=523
+creating hex file from "hexfile"...
+"hexfile" - 0 Error(s), 8 Warning(s).

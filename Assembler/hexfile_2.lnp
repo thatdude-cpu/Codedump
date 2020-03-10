@@ -1,0 +1,4 @@
+"fvs_bib_lcd.obj",
+"c_code.obj" 
+TO "hexfile" 
+RAMSIZE(256) 

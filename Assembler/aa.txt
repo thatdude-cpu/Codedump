@@ -1,0 +1,90 @@
+; Progammierer...:
+; Datum..........:
+; Programmnanme..:
+; Beschreibung...:                                                                                       
+;------------- Programmbereich ----------------------------------89C51CC01-	
+		
+		ljmp 0x50	;Sprung zum Prgrammstart
+
+;--------------Interrupt Sprungtabelle ------------------------------------
+		org 0x03
+		ljmp ext_int0
+		
+		org 0x13
+		ljmp ext_int1
+
+		org 0x0b
+		ljmp tim0_int
+;*********************Anfang Programm**************************************		
+         	ORG 0x50
+;344 m/s schallgeschwindigkeit
+;Zeitmessung V=S/T S=V*T S= v*t/2 t= 0,01 sekunde 10.000 µs
+;1cm->t=2*0.01m/344m =58,14µs
+;t=2*s/v
+
+Setb et0
+setb ea
+mov tmod,#2
+mov th0,#198
+mov tl0,#198
+call init_lcd
+wdh:		
+	mov r4,#0
+	setb P1.0
+	
+	mov r3,#10
+	djnz r3,$
+	
+	clr P1.0
+	jnb P1.1,$
+	setb TR0
+	jb P1.1,$
+	clr TR0
+	
+	mov a,r4
+	mov b,#100
+	DIV AB
+	add a,#0x30
+	mov r6,a
+	call zeichen
+	mov a,b
+	mov b,#10
+	div ab
+	add a,#0x30
+	mov r6,a
+	call zeichen 
+	mov a,b
+	add a,#0x30
+	mov r6,a
+	call zeichen
+	
+	call home
+	mov r7,#100
+	call msec
+	sjmp wdh
+	
+		sjmp $
+
+;*******Ende Programm ****************************************************
+
+;------------ Interruptroutinen ------------------------------------------
+
+ext_int0:	reti
+
+ext_int1:	reti
+
+tim0_int:	
+		inc r4
+
+reti
+
+;---------------- Textspeicherbereich --------------------------------------
+; text:    db      "Hallo ",0
+;-------------------------------------------------------------------------- 
+
+$INCLUDE   (lcd_ups_2.INC)
+$INCLUDE   (zeit_ups_2.INC)
+$INCLUDE   (t89c51cc01.INC) 
+
+;--------------------------------------------------------------------------
+		END

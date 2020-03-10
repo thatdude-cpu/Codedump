@@ -1,0 +1,34 @@
+	;S1	equ	0x55
+
+start:	
+    
+	call init_lcd
+	
+	;11
+		;mov R5,P0
+		;mov R6,#0xFF
+		;;mov R7,#1
+;prog:		
+		;mov A,R5
+		;JZ ende	
+		;;call sec
+		;call zeichen
+		;DEC R5 
+
+		;ljmp prog
+;ende:
+
+
+;12
+
+mov a,P0
+add a,#0x30
+mov R6,a
+JZ ende
+
+ende:
+lcall zeichen
+
+
+
+sjmp $

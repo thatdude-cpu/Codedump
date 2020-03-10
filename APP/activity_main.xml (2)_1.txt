@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xlmns:http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+//formatierung
+
+
+tools:context==".MainActivity"
+android:transitionGroup="true"
+> 
+
+
+
+<TextView 
+//Textausgabe an erster position 
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:id="@+id/textview"
+android:text="Bluetooth"
+//formatierungen 
+
+/>
+
+//einschalten fürs bluetooth
+<Button
+android:id="@+id/button1"
+android:layout_widht="wrap_content"
+android:layout_height=wrap_content"
+android:text="Einschalten"
+android:clickable="true"
+android:OnClick="an" />
+
+
+/>
+
+
+//andere buttons
+
+
+
+
+<ListView
+
+/>
+
+
+//Angeschlossene geräte
+<TextView
+
+/>
+</RelativeLayout>

@@ -1,0 +1,49 @@
+alarm.xml
+
+fragment_alarm.xml
+
+public alarm extends activity
+{
+
+
+//weckzeit festlegen
+wz=
+//systemzeit festlegen
+sz=
+
+
+public void Alarm (View v)
+{
+
+
+//alarm aktiviert
+
+	if(true)
+	{
+
+	 if(sz==wz)
+	 {
+
+	  Vibrieren();
+
+
+	}
+	 }
+}
+
+
+
+
+
+
+public void zurück(View V)
+{
+setContentView(R.layout.fragment_MainActivity);
+}
+
+
+
+
+
+
+}
